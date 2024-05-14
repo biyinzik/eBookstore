@@ -1,0 +1,373 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF7F7"
+    android:backgroundTint="#FBFAFA"
+    tools:context=".Home"
+    tools:ignore="ExtraText"
+    tools:layout_editor_absoluteX="136dp"
+    tools:layout_editor_absoluteY="-25dp"
+    xsi:schemaLocation="http://schemas.android.com/apk/res-auto ">
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="252dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Hobbies &amp; Home"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Adventure"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Computer &amp; Tech"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Relationship"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Teens"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="352dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Travel"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="252dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Health &amp; Fitness"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Love &amp; Romance"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt;Button&#xA;        android:id=&quot;@+id/button19&quot;&#xA;        android:layout_width=&quot;wrap_content&quot;&#xA;        android:layout_height=&quot;wrap_content&quot;&#xA;        android:backgroundTint=&quot;@android:color/holo_orange_light&quot;&#xA;        android:text=&quot;Love &amp; Romance&quot;&#xA;        android:textColor=&quot;@android:color/black&quot;&#xA;        android:textColorLink=&quot;@android:color/white&quot;&#xA;        tools:layout_editor_absoluteX=&quot;211dp&quot;&#xA;        tools:layout_editor_absoluteY=&quot;481dp&quot; />"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt;Button&#xA;        android:id=&quot;@+id/button19&quot;&#xA;        android:layout_width=&quot;wrap_content&quot;&#xA;        android:layout_height=&quot;wrap_content&quot;&#xA;        android:backgroundTint=&quot;@android:color/holo_orange_light&quot;&#xA;        android:text=&quot;Love &amp; Romance&quot;&#xA;        android:textColor=&quot;@android:color/black&quot;&#xA;        android:textColorLink=&quot;@android:color/white&quot;&#xA;        tools:layout_editor_absoluteX=&quot;211dp&quot;&#xA;        tools:layout_editor_absoluteY=&quot;481dp&quot; />"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&lt;Button&#xA;        android:id=&quot;@+id/button19&quot;&#xA;        android:layout_width=&quot;wrap_content&quot;&#xA;        android:layout_height=&quot;wrap_content&quot;&#xA;        android:backgroundTint=&quot;@android:color/holo_orange_light&quot;&#xA;        android:text=&quot;Love &amp; Romance&quot;&#xA;        android:textColor=&quot;@android:color/black&quot;&#xA;        android:textColorLink=&quot;@android:color/white&quot;&#xA;        tools:layout_editor_absoluteX=&quot;211dp&quot;&#xA;        tools:layout_editor_absoluteY=&quot;481dp&quot; />"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="103dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="304dp"
+        android:background="#FF9800"
+        android:text="See All"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TouchTargetSizeCheck,VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="515dp"
+        android:text="Hi Sarah"
+        android:textColor="#FF9800"
+        android:textColorHighlight="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="403dp"
+        android:text="Categories"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/trend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Trending"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:text="Explore"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Authors"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    xs
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="458dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891"
+        app:srcCompat="@drawable/authors_page"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="-24dp" />
+
+    <ImageView
+        android:id="@+id/home2"
+        android:layout_width="46dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baseline_home_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="41dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baseline_category_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/bookmark1"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/baseline_bookmarks_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+
+    <ImageView
+        android:id="@+id/cart1"
+        android:layout_width="45dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/baseline_shopping_cart_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="16dp"
+        android:text="Home"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="70dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="16dp"
+        android:text="Categories"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="16dp"
+        android:text="Bookmarks"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="Cart"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="425dp"
+        android:layout_height="180dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FF9800"
+        android:text=""
+        tools:ignore="MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-8dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="138dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="116dp"
+        android:text="Home"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

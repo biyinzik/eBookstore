@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eBookStore">
+
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="157dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/dad"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="219dp"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="426dp"
+        android:layout_height="149dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FF9800"
+        android:text=""
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="-10dp"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ebookstore"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="46dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bookmarks"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="168dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_100_books"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="200dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="156dp"
+        android:layout_height="141dp"
+        app:srcCompat="@drawable/power"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="219dp"
+        tools:ignore="MissingConstraints"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="192dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/lifetime"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="406dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="164dp"
+        android:layout_height="141dp"
+        app:srcCompat="@drawable/mom"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="406dp"
+        tools:ignore="MissingConstraints"
+        android:importantForAccessibility="no" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:text="@string/see_all"
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rich_dad_poor_dad_forteens"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="349dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/the_secrets_about_money"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="368dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/power_moves_ignite"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="360dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_confidence"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="379dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/destination_of_time"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="551dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_225_of_world_s_most"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="578dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amazing_places"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="597dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mom_i_want_hear"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="551dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_story"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="570dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="46dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/baseline_home_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="41dp"
+        android:layout_height="29dp"
+        app:srcCompat="@drawable/baseline_category_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/baseline_bookmarks_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="658dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="45dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/baseline_shopping_cart_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home1"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="690dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/categories1"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bookmarks1"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="696dp"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

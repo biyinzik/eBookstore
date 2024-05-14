@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#BC8A7B"
+    tools:context=".LOGOUT">
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="498dp"
+        android:layout_marginEnd="84dp"
+        android:text="Books"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="600dp"
+        android:layout_height="296dp"
+        android:background="#FFC107"
+        android:scrollbarSize="50sp"
+        android:textAlignment="textEnd"
+        app:srcCompat="@drawable/book"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds"
+        tools:layout_editor_absoluteX="-83dp"
+        tools:layout_editor_absoluteY="-10dp" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="177dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView57"
+        app:srcCompat="@drawable/baseline_person_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="209dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="248dp"
+        android:background="#D6B88B"
+        android:backgroundTint="#EDEBE9"
+        android:text=""
+        android:textColorHighlight="#0E0E0E"
+        android:textColorHint="#131313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="248dp"
+        android:text="Sarah Anne"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="183dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginBottom="405dp"
+        android:text="sarah.ann@gmail.com"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="131dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="406dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_home_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/category1"
+        android:layout_width="91dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="547dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_category_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="300dp"
+        android:text="@string/home"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="623dp"
+        android:layout_marginEnd="280dp"
+        android:text="@string/categories"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="623dp"
+        android:layout_marginEnd="77dp"
+        android:text="@string/logout"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/logout1"
+        android:layout_width="76dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="546dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_logout_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/books1"
+        android:layout_width="81dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="422dp"
+        android:layout_marginEnd="71dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_library_books_24"
+        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/home1"
+        android:layout_width="88dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginBottom="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
